@@ -6,5 +6,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'hello-world';
+  public nombre = "Juanillo el Golondrina"
+
+  public estaURL = window.location.href
+
+  public helloUser(){
+    return "Hola "+ this.nombre
+  }
+
+
 }
