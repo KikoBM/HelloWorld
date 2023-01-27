@@ -1,0 +1,8 @@
+<h2 >Welcome</h2>
+<h2 *ngIf="mostrarNombre; else elseBlock">
+    Juanillo
+</h2>
+
+<ng-template #elseBlock>
+    <h2>El nombre está oculto</h2>
+</ng-template>

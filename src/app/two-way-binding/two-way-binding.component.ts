@@ -6,7 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./two-way-binding.component.scss']
 })
 export class TwoWayBindingComponent {
-
   public name=""
-  
 }

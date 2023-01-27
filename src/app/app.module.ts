@@ -7,6 +7,8 @@ import { EventBindingComponent } from './event-binding/event-binding.component';
 import { TwoWayBindingComponent } from './two-way-binding/two-way-binding.component';
 import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
+import { NgIfComponent } from './directives/ng-if/ng-if.component';
+import { NgSwitchComponent } from './directives/ng-switch/ng-switch.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +17,9 @@ import { FormsModule } from '@angular/forms';
     PropertyBindingComponent,
     ClassStyleBindingComponent,
     EventBindingComponent,
-    TwoWayBindingComponent
+    TwoWayBindingComponent,
+    NgIfComponent,
+    NgSwitchComponent
   ],
   imports: [
     BrowserModule,

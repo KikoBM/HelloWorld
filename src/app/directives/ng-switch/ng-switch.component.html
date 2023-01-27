@@ -1,0 +1,7 @@
+<h2>Welcome</h2>
+<div [ngSwitch]="color">
+    <h2 *ngSwitchCase="'rojo'" style="color: red;">Rojo</h2>
+    <h2 *ngSwitchCase="'verde'" style="color: green;">Verde</h2>
+    <h2 *ngSwitchCase="'azul'" style="color: blue;">Azul</h2>
+    <h2 *ngSwitchDefault >Parece que no tenemos ese color :(</h2>
+</div>
